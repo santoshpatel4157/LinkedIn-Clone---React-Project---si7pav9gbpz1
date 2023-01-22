@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+span.icon{
+  display: flex;
+  align-items: center;
+  color:#e1e5e8;
+  margin: 2px;
+  padding: 0px 20px;
+}
+
+.container{
+  max-width: calc(1440px - 260px);
+  width: 100%;
+  margin: auto;
+}
+header{
+  background-color: #2D3E49;
+
+}
+
+header .header-inner{
+  max-width: calc(1440px - 260px);
+  width: 100%;
+  margin: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header-inner .logo{
+  display: flex;
+  align-items: center;
+}
+.header-inner .logo form{
+  display: flex;
+  align-items: center;
+  background-color: #e1e5e8;
+  border-radius: 2px;
+  height: 32px;
+  margin-left: 10px;
+}
+.header-inner .logo form span{
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-inner .logo form input{
+  height: 100%;
+  border: none;
+  outline:none;
+  background-color: transparent;
+}
+.header-inner .links{
+  display: flex;
+  align-items: center;
+}
+.header-inner a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  position: relative;
+}
+
+.header-inner a .text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #C9D1D7;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-inner a .text .icon{
+  margin-left: 4px;
+}
+
+
+.header-inner .numbers{
+  /* display: none; */
+  position: absolute;
+  font-size: 12px;
+  line-height: 14px;
+  background: #C12D2E;
+  border: 1px solid #c12d2e;
+  border-radius: 100px;
+  color: #fff;
+  text-align: center;
+  top: -10px;
+  right: 15px;
+  padding: 2px 6px;
+  display: flex;
+  align-items: center;
+}
+
+.header-inner a .colored {
+  max-width: 138px;
+  color: #D8CDA8;
+  text-align: center;
+}
+
+/* <==============banner ad=========> */
+.banner-ad{
+  display: flex;
+  justify-content: center;
+  padding: 14px 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+.banner-ad p{
+  color: #2D3E49 ;
+}
+
+.banner-ad p span{
+  color: #3072ac;
+}
+
