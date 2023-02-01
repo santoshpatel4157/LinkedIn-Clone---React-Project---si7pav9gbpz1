@@ -3,12 +3,12 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB5SKfja3tGf6lXFPKQ2MEhWofe_tr0l_M",
-  authDomain: "linkedin-68345.firebaseapp.com",
-  projectId: "linkedin-68345",
-  storageBucket: "linkedin-68345.appspot.com",
-  messagingSenderId: "429242648132",
-  appId: "1:429242648132:web:78c3869841bb710ec35e11",
+  apiKey: "AIzaSyCVd9ZUMGPztOl-2kUpXPdXC6exhiiSbvI",
+  authDomain: "linkdin-clone-using-redux.firebaseapp.com",
+  projectId: "linkdin-clone-using-redux",
+  storageBucket: "linkdin-clone-using-redux.appspot.com",
+  messagingSenderId: "178841180866",
+  appId: "1:178841180866:web:5a1f43599dc5f8e637f95b",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
